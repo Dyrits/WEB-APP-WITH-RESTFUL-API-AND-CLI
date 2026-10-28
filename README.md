@@ -1,56 +1,40 @@
-# Building a RESTful API | Building a Web App GUI | Building a CLI
+# Web App with RESTful API and CLI
 
-## Table of contents
-- [Related content](#related-content)
-  - [Personal recommandations](#personal-recommandations)
-- [General information](#general-information)
-- [Screenshots](#screenshots)
-- [Technologies](#technologies-and-tools)
-- [Installation](#installation)
-- [Status](#status)
-    - [Changelog](#changelog)
-- [Contributing](#contributing)
-- [Contact](#contact)
+A RESTful API built with Node.js, with a web application GUI and a CLI, without any dependency.
 
-## Related content
-![The Node.js Master Class](https://pirple.s3.amazonaws.com/tiles/node.png)
-This project has been build as part of the Node.js Master Class, available on [Pirple](https://www.pirple.com/).
+## About The Project
 
-### Personal recommandations
-I don't recommend to buy and take the course provided by [Pirple](https://www.pirple.com/).
-This course was originally released in 2018. Since then, the Node.js platform and ecosystem has continued to evolve.
+This project is a RESTful API built with Node.js and a web application using a custom templating engine. It allows a user to create checks, with different status codes, and to get the state of a check.
 
-## General Information
-This project is a RESTful API built with Node.js and a web application using a custom templating engine.  
-It allows user to create checks, with different status code, and to get the state of a check.
+The project was built using Node.js without any dependency.
 
-## Screenshots
+### Screenshots
+
 ![Check details](check-details.png)
 
-## Technologies and tools
-This project has been build using Node.js without any dependency.
+### Course
 
-## Installation
-Run `git checkout pirple` to switch to the [pirple](https://github.com/Dyrits/WEB-APP-WITH-RESTFUL-API/tree/pirple) branch.  
+The Node.js Master Class, available on [Pirple](https://www.pirple.com/).
+
+### Built With
+
+- Node.js (no dependencies)
+
+## Getting Started
+
+Run `git checkout pirple` to switch to the [pirple](https://github.com/Dyrits/WEB-APP-WITH-RESTFUL-API/tree/pirple) branch.
 Run `npm start` to start the server.
 
+## Notes
+
+The following notes are from the original README:
+
+- Personal recommendation: "I don't recommend to buy and take the course provided by Pirple. This course was originally released in 2018. Since then, the Node.js platform and ecosystem has continued to evolve."
+
 ## Status
-The project has been completed on the [pirple](https://github.com/Dyrits/WEB-APP-WITH-RESTFUL-API/tree/pirple) branch. Check the changelog for more information.
 
-### Changelog
-The project, on the main branch, has been discontinued.
+Per the original README: the project has been completed on the [pirple](https://github.com/Dyrits/WEB-APP-WITH-RESTFUL-API/tree/pirple) branch. On the main branch, the project has been discontinued: the divergences from the original Pirple project were too consequential to continue without refactoring.
 
-The divergences from the original Pirple's project were too consequential to be able to continue without refactoring the full code base.  
-The original project has been realised four years prior to this one, and has a poor design and code quality.  
-The project has been continued on the [pirple](https://github.com/Dyrits/WEB-APP-WITH-RESTFUL-API/tree/pirple) branch following the original one.
+## License
 
-The original project can be found on the dedicated [repository](https://github.com/pirple/The-NodeJS-Master-Class/tree/master/Section%204).  
-The project has been refactored and improved, and the code quality has been improved up to [[Page 3 - Create Session]](https://github.com/pirple/The-NodeJS-Master-Class/tree/master/Section%204/Page%203%20-%20Create%20Session).  
-The [pirple](https://github.com/Dyrits/WEB-APP-WITH-RESTFUL-API/tree/pirple) branch, in this repository, starts back from [[Page 4 - Deleted Session]](https://github.com/pirple/The-NodeJS-Master-Class/tree/master/Section%204/Page%204%20-%20Deleted%20Session).
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate (if any).
-
-## Contact
-Created by [Dylan J. Gerrits](https://github.com/Dyrits).
+ISC is declared in `package.json`; no license file is present in this repository.
